@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
 
 app.listen(5000, async () => {
   await mongoose.connect(
-    "mongodb+srv://Utkarsh:1234@cluster0.avafjsi.mongodb.net/socketioproject"
+    ""
   );
   console.log("sever started on http://localhost:5000");
 });
